@@ -1,0 +1,5 @@
+var name = prompt ('¿Cómo te llamas?')
+var question = prompt ('¿Es tu primera vez en nuertra página?')
+var option = prompt ('¿Vegano o vegetariano?')
+var consume = prompt ('¿Vas a comer algo o beber algo?')
+var payment = prompt ('¿Cuál será tu método de pago?')

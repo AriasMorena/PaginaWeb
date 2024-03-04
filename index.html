@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>carta restaurante</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="estilos.css"> 
+        <script src="unidad7.js"></script>
+    </head>
+<body>
+    <header>
+        <div id="distintivo">
+             <h1>La Buena Pipa</h1>
+             <h2>(vegano y vegetariano)</h2>
+            </div>
+    <nav id="botones_inicio">
+        <ul>
+            <li><a href="#section1">Comida</a></li>
+            <li><a href="#section2">Bebida</a></li>
+            <li><a href="#section3">Postre</a></li>
+            <li><a href="#section4">Más info</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section id="section1">
+        <div id="b1_s1"></div>  
+        <div id="b2_s1">
+            <h3>Pizzas</h3>
+            <ul>
+                <li><span class="box_titulos">Napolitana </span>(salsa de tomate, muzzarella, rodajas de tomate, provenzal y aceitunas verdes).</li>
+                <li><span class="box_titulos">Muzzarella </span>(salsa de tomate, muzzarella y aceitunas verdes).</li>
+                <li><span class="box_titulos">Cuatro Quesos </span>(salsa de tomate, muzzarella, provolone, parmesano, roquefort y aceitunas negras).</li>
+                <li><span class="box_titulos">Margarita </span>(salsa de tomate, queso de avena, rodajas de tomate, albahaca, oliva y aceitunas negras).</li>
+                <li><span class="box_titulos">Magica</span> (salsa de tomate, queso de almendras, nueces picadas y aceitunas negras).</li>
+                <li><span class="box_titulos">Champiñon</span> (salsa de tomate, queso de papa, champiñones, ajo, perejil, oliva y aceitunas verdes).</li>
+            </ul>
+        </div>
+         <div id="b3_s1"> 
+            <h4>Precios</h4>
+            <h5>Entera</h5> 
+            <h6>Media</h6>
+            <ul>
+                <li class="box_precios">$2250 $1150</li>
+                <li class="box_precios">$1650 $1150</li>
+                <li class="box_precios">$2350 $1200</li>
+                <li class="box_precios">$2250 $1250</li>
+                <li class="box_precios">$2350 $1250</li>
+                <li class="box_precios">$2450 $1250</li>
+            </ul>
+        </div>
+        <div id="b4_s1"></div>
+        <div id="b5_s1">
+            <h3>Pastas</h3>
+            <ul>
+                <li><span class="box_resaltados">Sorrentinos de calabaza</span> + (salsa blanca / pesto / fileto). <span class="box_resaltados">$2500</li></span>
+                <li><span class="box_resaltados">Sorrentinos de ricota</span> + (salsa blanca / pesto / fileto). <span class="box_resaltados">$2500</li></span>
+                <li><span class="box_resaltados">Ravioles de espinaca</span> + (salsa blanca / pesto / portuguesa) <span class="box_resaltados">$2200</li></span>
+                <li><span class="box_resaltados">Ravioles integrales de espinaca</span> + (salsa blanca / pesto / portuguesa). <span class="box_resaltados">$2300</li></span>
+                <li><span class="box_resaltados">Raviolones de ricota</span> + (calsa blanca / pesto / fileto). <span class="box_resaltados">$2300</li></span>
+                <li><span class="box_resaltados">Tallarines integrales</span>+ (salsa blanca / pesto / fileto). <span class="box_resaltados">$2200</li></span>
+                <li><span class="box_resaltados">Tallarines de huevo</span> + (salsa blanca / pesto / portuguesa). <span class="box_resaltados">$2200</li></span>
+                <li><span class="box_resaltados">Ñoquis</span> + (salsa blanca / pesto / portuguesa). <span class="box_resaltados">$2100</li></span>
+            </ul>
+        </div>
+    </section>
+    <section id="section2">
+        <div id="b1_s2">
+            <div id="mostrar" style="display: none;">
+                <span class="bienvenida"><p>Hola <script>document.write(name)</script>, bienvenido/a <span class="otra-vez">otra vez</span> a nuestra carta!!!</p></span>
+                <span class="usuario"><p>Dijiste que esta <script>document.write(question)</script> es tu primera vez aquí.</p></span>
+                <span class="usuario"><p>Elegiste <script>document.write(consume)</script> algo.</p></span>
+                <span class="usuario"><p>Algo que sea <script>document.write(option)</script>.</p></span>
+                <span class="usuario"><p>Y pagaras con <script>document.write(payment)</script>. Perfecto ¡que lo disfrutes!</p></span>
+            </div>
+             <div id="no-mostrar" style="display: none;">
+                <span class="bienvenida"><p>Hola <script>document.write(name)</script>, bienvenido/a a nuestra carta!!!</p></span>
+                <span class="usuario"><p>Dijiste que esta <script>document.write(question)</script> es tu primera vez aquí.</p></span>
+                <span class="usuario"><p>Elegiste <script>document.write(consume)</script> algo.</p></span>
+                <span class="usuario"><p>Algo que sea <script>document.write(option)</script>.</p></span>
+                <span class="usuario"><p>Y pagaras con <script>document.write(payment)</script>. Perfecto ¡que lo disfrutes!</p></span>
+            </div>
+        </div>
+        <div id="b2_s2">
+            <h3>Jugos Exprimidos</h3>
+            <p class="subtitulos">En vaso</p>
+            <ul>
+                <li><span class="box_resaltados">Limonada</span>. $1000</li>
+                <li><span class="box_resaltados">Naranja</span>. $1000</li>
+                <li><span class="box_resaltados">Pera</span>. $1000</li>
+                <li><span class="box_resaltados">Manzana</span>. $1000</li>
+                <li><span class="box_resaltados">Durazno</span>. $1000</li>
+            </ul>
+            <p class="subtitulos">En jarra</p>
+            <ul>
+                <li><span class="box_resaltados">Limonada</span>. $2000</li>
+                <li><span class="box_resaltados">Naranja</span>. $2000</li>
+                <li><span class="box_resaltados">Pera</span>. $2000</li>
+                <li><span class="box_resaltados">Manzana</span>. $2000</li>
+                <li><span class="box_resaltados">Durazno</span>. $2000</li>
+            </ul>
+        </div>
+        <div id="b3_s2">
+            <a href="#section2" onclick="texto()"><img src="imagenes/zumo-de-durazno.jpg" alt="zumodedurazno" class="ancho-imagen"></a>
+        </div>
+        <div id="b4_s2">
+            <h3>Bebidas Especiales</h3>
+            <ul id="jugos"style="display: none;">  
+                <li><span class="box_resaltados">Zumo Multicolor</span> (frutas a elección con agua o leche). <span class="box_resaltados">$1200</li></span>
+                <li><span class="box_resaltados">Zumo Green</span> (manzana verde, espinaca, kiwi). <span class="box_resaltados">$1200</li></span>
+                <li><span class="box_resaltados">Zumo Orange</span> (naranja, zanahoria, durazno). <span class="box_resaltados">$1200</li></span>
+                <li><span class="box_resaltados">Zumo Red</span> (manzana roja, cereza, frutilla). <span class="box_resaltados">$1200</li></span>
+                <li><span class="box_resaltados">Zumo Yellow</span> (banana, ananá, pera). <span class="box_resaltados">$1200</li></span>
+                <li><span class="box_resaltados">Zumo Blue</span> (uvas, frambuesas, arándanos). <span class="box_resaltados">$1200</li></span>
+            </ul>
+        </div>
+    </section>
+    <section id="section3">
+        <div id="b1_s3">
+            <h3>Helados Veganos</h3>
+            <p class="subtitulos">(en vasito)</p>
+            <ul>
+                <li><span class="box_resaltados">Helado de chocolate.</span> $1000</li>
+                <li><span class="box_resaltados">Helado de banana.</span> $1000</li>
+                <li><span class="box_resaltados">Helado de frambuesa.</span> $1000</li>
+                <li><span class="box_resaltados">Helado de frutilla.</span> $1000</li>
+                <li><span class="box_resaltados">Helado de menta granizada.</span> $1000</li>
+                <li><span class="box_resaltados">Helado de vainilla.</span> $1000</li>
+                <li><span class="box_resaltados">Helado de oreo.</span> $1000</li>
+            </ul>
+        </div>
+        <div id="b2_s3">
+            <h3>Variados</h3>
+            <p class="subtitulos">(por unidad)</p>
+            <ul>
+                <li><span class="box_resaltados">Brownies.</span> $1200</li>
+                <li><span class="box_resaltados">Porción de cheesecake.</span> $1200</li>
+                <li><span class="box_resaltados">Porción de tarta de frutilla.</span> $1200</li>
+                <li><span class="box_resaltados">Porción de tarta de frambuesa.</span> $1200</li>
+                <li><span class="box_resaltados">Porción de tiramisu.</span> $1200</li>
+                <li><span class="box_resaltados">Ensalada de frutas.</span> $1200</li>
+                <li><span class="box_resaltados">Yogurt saborizado.</span> $1200</li>
+                <li><span class="box_resaltados">Yogurt frutal.</span> $1200</li>
+            </ul>
+        </div>
+        <div id="b3_s3">
+            <h3>Helados Vegetarianos</h3>
+            <p class="subtitulos">(en vasito)</p>
+            <ul>
+                <li><span class="box_resaltados">Helado de frutilla.</span> $1000</li>
+                <li><span class="box_resaltados">Helado de vainilla.</span> $1000</li>
+                <li><span class="box_resaltados">Helado de chocolate.</span> $1000</li>
+                <li><span class="box_resaltados">Helado de dulce de leche.</span> $1000</li>
+                <li><span class="box_resaltados">Helado de crema del cielo.</span> $1000</li>
+                <li><span class="box_resaltados">Helado de tiramisu.</span> $1000</li>
+                <li><span class="box_resaltados">Helado de oreo.</span> $1000</li>
+            </ul>
+        </div>
+        <div id="b4_s3">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="imagenes/helados-veganos.jpg" class="d-block w-100" alt="helado">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/helados-veganos2.webp" class="d-block w-100" alt="helado">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/helados-veganos3.jpeg" class="d-block w-100" alt="helado">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div id="b5_s3">
+            <div id="carouselExample2" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="imagenes/postre-veggie3.jpg" class="d-block w-100" alt="postre">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/postre-veggie1.webp" class="d-block w-100" alt="postre">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/postre-veggie2.jpg" class="d-block w-100" alt="postre">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+    <section id="section4">
+        <div class="container-fluid">
+            <div class="row" id="mod-1">
+                <div class="col-xl-6 col-md-6" id="formulario">
+                    <h1>Reserva tu mesa</h1>
+                    <form action="section4">
+                        <input type="text" placeholder="Nombre" required minlength="2" maxlength="15" class="form-control">
+                        <input type="text" placeholder="Apellido" required minlength="2" maxlength="15" class="form-control">
+                        <input type="number" placeholder="Número de teléfono" required class="form-control">
+                        <input type="email" placeholder="Correo Electrónico" required minlength="5" maxlength="50" class="form-control">
+                        <input type="number" placeholder="Cantidad de comensales" required min="2" max="10" class="form-control">
+                        <input type="date" id="fecha" placeholder="Fecha de reserva" class="form-control">
+                        <textarea rows="3" placeholder="Preferencias" class="form-control"></textarea>
+                        <input type="submit" value="Reservar" class="btn btn-formulario">
+                    </form>
+                </div>
+                <div class="col-xl-6 col-md-6" id="restaurante2">
+                    <div class="card tarjeta-posicion" style="width: 35rem;">
+                        <img src="imagenes/restaurante2-imagen.jpg" class="card-img-top" alt="restaurante">
+                        <div class="card-body">
+                          <h5 class="card-title tarjeta-titulo">Visitanos</h5>
+                          <p class="card-text">Nos encontramos en el Centro Comercial de la ciudad.</p>
+                          <p class="card-text">Abierto de lunes a sábado desde las 11:00AM hasta las 23:00PM.</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="row" id="mod-2">
+                <div class="col-xl-6 col-md-6" id="restaurante">
+                    <div class="card tarjeta-posicion" style="width: 35rem;">
+                        <img src="imagenes/restaurante-imagen.jpg" class="card-img-top" alt="restaurante">
+                        <div class="card-body">
+                          <h5 class="card-title tarjeta-titulo">Nuestro espacio</h5>
+                          <p class="card-text">Contamos con 10 mesas de hasta 4 personas y 5 mesas para 10.</p>
+                          <p class="card-text">Variedad de comida y bebida vegana / vegetariana. Te esperamos!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6" id="formulario2">
+                    <h1>Reservación para eventos</h1>
+                    <form action="section4">
+                        <input type="text" placeholder="Nombre" required minlength="2" maxlength="15" class="form-control">
+                        <input type="text" placeholder="Apellido" required minlength="2" maxlength="15" class="form-control">
+                        <input type="number" placeholder="Número de teléfono" required class="form-control">
+                        <input type="email" placeholder="Correo Electrónico" required minlength="5" maxlength="50" class="form-control">
+                        <input type="number" placeholder="Cantidad de mesas" required min="2" max="5" class="form-control">
+                        <input type="date" placeholder="Fecha de reserva" class="form-control">
+                        <textarea rows="3" placeholder="Preferencias" class="form-control"></textarea>
+                        <input type="submit" value="Reservar" class="btn btn-formulario2">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="b1_f">
+            <h2 class="box_contactos">Copyright &copy 2023- La Buena Pipa.</h2>
+        </div>
+        <div id="b2_f">
+            <h3>Contactos</h3>
+            <h2 class="box_contactos">WhatsApp: 2966-516863</h2>
+            <h2 class="box_contactos">Correo: labuenapipa@gmail.com</h2>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="unidad8.js"></script>
+</body>
+</html>

@@ -1,0 +1,765 @@
+body, html {
+   scroll-behavior: smooth;
+   font-family: sans-serif;
+}
+ header, section, footer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ header {
+    height: 140px;
+    background-color: burlywood;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+#distintivo {
+    height: 150px;
+    width: 400px;
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+ h1 {
+   font-size: 36px;
+   color: darkolivegreen;
+   font-weight: bold;
+}
+ h2 {
+   font-size: 20px;
+   color: white;
+   font-weight: bold;
+}
+#botones_inicio {
+    height: 150px;
+    width: 800px;
+    float: right;
+}
+#botones_inicio ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   display: flex;
+   justify-content: space-around;
+}
+#botones_inicio ul li {
+   flex-grow: 1;
+}
+#botones_inicio ul li a {
+   display: block;
+   text-decoration: none;
+   color: black;
+   padding: 45px;
+   font-size: 15px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
+   background-color: peru;
+   margin: 15px;
+   text-align: center;
+   border-radius: 50px;
+   border: 3px darkolivegreen solid;
+}
+#botones_inicio ul li a:hover {
+   background-color: antiquewhite;
+}
+#section1 {
+    height: 850px;
+    background:-webkit-linear-gradient(left, #bdb76b 30%, #cd853f);
+ }
+#b1_s1 {
+    height: 340px;
+    width: 370px;
+    background-image: url(imagenes/pizza-vegana-belgica.jpg);
+    float: left;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+ }
+#b2_s1 {
+    height: 400px;
+    width: 380px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ h3 {
+   font-size: 25px;
+   color: darkolivegreen;
+   text-align: center;
+   margin-top: 5px;
+   font-weight: bold;
+ }
+.box_titulos {
+   font-weight: bold;
+   font-family: sans-serif;
+   font-size: 17px;
+ }
+#b2_s1 ul li {
+   list-style-type: square;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+#b3_s1 {
+    height: 400px;
+    width: 380px;
+    float: left;
+    margin-top: 10px;
+    border: 1px black solid;
+    box-shadow: 5px 5px 5px #000000;
+ }
+ h4 {
+   font-size: 25px;
+   color: darkolivegreen;
+   text-align: center;
+   margin-top: 5px;
+   margin-bottom: 0;
+   font-weight: bold;
+ }
+ h5 {
+   display: inline;
+   text-align: left;
+   font-size: 18px;
+   color: white;
+   margin-left: 30px;
+   margin-bottom: 0;
+   margin-right: 180px;
+   font-weight: bold;
+ }
+ h6 {
+   display: inline;
+   text-align: right;
+   font-size: 18px;
+   color: white;
+   font-weight: bold;
+ }
+ .box_precios {
+   list-style-type: none;
+   text-align: left;
+ }
+#b3_s1 ul li {
+   padding-bottom: 35px;
+   word-spacing: 190px;
+   font-weight: bold;
+}
+#b4_s1 {
+    height: 300px;
+    width: 370px;
+    background-image: url(imagenes/sorrentinos-veganos.jpg);
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#b5_s1 ul li {
+   list-style-type: square;
+   font-size: 20px;
+   font-family: sans-serif;
+   padding-bottom: 7px;
+ }
+ .box_resaltados {
+   font-weight: bold;
+ }
+#b5_s1 {
+    height: 300px;
+    width: 780px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+#section2 {
+    height: 830px;
+    background:-webkit-linear-gradient(left, #bdb76b 30%, #cd853f);
+ }
+.otra-vez {
+   color: rgb(122, 4, 20);
+}
+#b1_s2 {
+    height: 400px;
+    width: 370px;
+    background-image: url(imagenes/jugos-de-frutas.jpg);
+    background-size: cover;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+ }
+#b2_s2 {
+    height: 400px;
+    width: 700px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+ }
+ #b2_s2 ul li {
+   text-align: center;
+   list-style-type: none;
+   font-size: 20px;
+   font-family: sans-serif;
+   margin: 0;
+ }
+.subtitulos {
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+}
+.bienvenida {
+   text-align: center;
+   font-weight: bold;
+   font-size: 20px;
+   padding: 100px;
+}
+.usuario {
+   text-align: center;
+   font-weight: bold;
+   font-size: 18px;
+   margin-top: 50px;
+}
+#b3_s2 {
+    height: 350px;
+    width: 370px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 20px;
+ }
+ .ancho-imagen {
+   width: 100%;
+ }
+#b4_s2{
+    height: 350px;
+    width: 780px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+#b4_s2 ul li {
+   list-style-type: square;
+   font-size: 20px;
+   font-family: sans-serif;
+   padding-bottom: 10px;
+   margin-left: 50px;
+   margin-top: 5px;
+ }
+#section3 {
+    height: 950px;
+    background:-webkit-linear-gradient(left, #bdb76b 30%, #cd853f);
+ }
+ #b1_s3 {
+    height: 560px;
+    width: 350px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 20px;
+ }
+#b2_s3 {
+    height: 560px;
+    width: 350px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 20px;
+ }
+#b3_s3 {
+    height: 560px;
+    width: 350px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 30px;
+    margin-left: 20px;
+ }
+#b4_s3 {
+    height: 200px;
+    width: 550px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+ }
+#b5_s3 {
+    height: 200px;
+    width: 550px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+ }
+#b1_s3 ul li {
+   list-style-type: none;
+   text-align: center;
+   font-size: 20px;
+   padding-bottom: 20px;
+}
+#b2_s3 ul li {
+   list-style-type: none;
+   text-align: center;
+   font-size: 20px;
+   padding-bottom: 20px;
+}
+#b3_s3 ul li {
+   list-style-type: none;
+   text-align: center;
+   font-size: 20px;
+   padding-bottom: 20px;
+}
+#section4 {
+   height: 1000px;
+   background:-webkit-linear-gradient(left, #bdb76b 30%, #cd853f);
+}
+#formulario {
+   padding: 20px;
+   box-sizing: border-box;
+}
+input, textarea {
+   margin-bottom: 5px;
+}
+.btn-formulario {
+   background-color: #cd853f;
+   float: right;
+   margin-right: 20px;
+   margin-top: 5px;
+   border-color: darkolivegreen;
+}
+.btn-formulario:hover {
+   background-color: antiquewhite;
+}
+#restaurante2 {
+   padding: 25px;
+   box-sizing: border-box;
+}
+#restaurante {
+   padding-top: 25px;
+   box-sizing: border-box;
+}
+.tarjeta-titulo {
+   font-size: 25px;
+   font-weight: bold;
+   color: darkolivegreen;
+}
+#formulario2 {
+   padding: 20px;
+   box-sizing: border-box;
+}
+#formulario2 h1 {
+   float: right;
+}
+.btn-formulario2 {
+   background-color: #cd853f;
+   margin-top: 5px;
+   border-color: darkolivegreen;
+}
+.btn-formulario2:hover {
+   background-color: antiquewhite;
+}  
+.tarjeta-posicion {
+   position: static;
+}
+footer {
+    height: 150px;
+    background-color: burlywood;
+ }
+#b1_f {
+   height: 130px;
+   width: 500px;
+   float: left;
+   margin-top: 10px;
+   margin-left: 20px;
+ }
+#b2_f {
+   height: 130px;
+   width: 480px;
+   float: right;
+   margin-top: 10px;
+   margin-right: 20px;
+}
+.box_contactos {
+   text-align: center;
+   color: black;
+}
+
+ @media all and (min-width: 600px) and (max-width: 1200px) {
+    header, section, footer {
+       width: 580px;
+   }
+    header {
+       height: 120px;
+       margin-bottom: 0;
+   }
+   #distintivo {
+       height: 150px;
+       width: 580px;
+       float: none;
+   }
+    h1 {
+     text-align: center;
+   }
+    h2 {
+      text-align: center;
+   }
+   #botones_inicio {
+       height: 100px;
+       width: 580px;
+       float: none;
+   }
+   #botones_inicio ul li a {
+      padding: 5px;
+      margin-top: 0;
+   }
+   #section1 {
+       height: 1180px;
+    }
+   #b1_s1 {
+      height: 150px;
+      margin-top: 90px;
+      margin-left: 100px;
+   }
+   #b2_s1 {
+      height: 150px;
+      width: 220px;
+   }
+   #b2_s1 ul li {
+      font-size: 13px;
+   }
+   #b3_s1 {
+      width: 310px;
+   }
+   h5 {
+     margin-right: 120px;
+   }
+  #b3_s1 ul li {
+     word-spacing: 130px;
+  }
+  #b4_s1 {
+      height: 210px;
+      width: 570px;
+      margin-top: 95px;
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+  #b5_s1 ul li {
+     font-size: 15px;
+     padding-bottom: 0;
+   }
+  #b5_s1 {
+      height: 90px;
+      width: 575px;
+      margin-top: 10px;
+      margin-right: 15px;
+    }
+   /*cajas section2*/
+   #section2 {
+      height: 850px;
+   } 
+   #b1_s2 {
+       height: 260px;
+       width: 240px;
+       margin-top: 70px;
+       margin-right: 10px;
+       margin-left: 10px;
+    }
+   #b2_s2 {
+       height: 360px;
+       width: 300px;
+       margin-right: 10px;
+       margin-left: 10px;
+    }
+    .bienvenida {
+      font-size: 15px;
+      padding: 0;
+   }
+   .usuario {
+      font-size: 15px;
+      margin-top: 40px;
+   }
+   #b3_s2 {
+       height: 240px;
+       width: 260px;
+       margin-top: 100px;
+       margin-left: 10px;
+       margin-right: 10px;
+    }
+   #b4_s2{
+       height: 360px;
+       width: 280px;
+       margin-top: 30px;
+       margin-right: 10px;
+   }
+   #b4_s2 ul li {
+      font-size: 15px;
+      padding-bottom: 15px;
+      margin-left: 20px;
+    }
+   /*cajas section3*/
+   #section {
+      height: 1000px;
+   }
+    #b1_s3 {
+       height: 300px;
+       width: 175px;
+       margin-left: 5px;
+       margin-right: 5px;
+    }
+   #b2_s3 {
+       height: 300px;
+       width: 175px;
+       margin-left: 5px;
+       margin-right: 5px;
+    }
+   #b3_s3 {
+       height: 300px;
+       width: 175px;
+       margin-left: 5px;
+       margin-right: 10px;
+    }
+   #b4_s3 {
+       height: auto;
+       width: 550px;
+       margin-top: 610px;
+       margin-left: 15px;
+       margin-right: 5px;
+   }
+   #b5_s3 {
+       height: auto;
+       width: 550px;
+       margin-top: 50px;
+       margin-right: 15px;
+       margin-left: 5px;
+    }
+   /*section4*/
+   #section4 {
+      height: auto;
+   }
+   #mod-1 {
+      height: auto;
+   }
+   #mod-2 {
+      height: auto;
+   }
+   #formulario {
+      width: 580px;
+   } 
+   #formulario2 {
+      width: 580px;
+   }
+   #restaurante2 {
+      width: 360px;
+      margin-left: 10px;
+      padding: 0;
+      margin-bottom: 20px;
+   }
+   #restaurante {
+      width: 360px;
+      margin-left: 10px; 
+      padding: 0;
+   }
+   #formulario2 h1 {
+      float: none;
+   }
+    /*footer*/
+   #b1_f {
+      height: 100px;
+      width: 240px;
+      margin-left: 10px;
+    }
+   #b2_f {
+      height: 100px;
+      width: 280px;
+      float: right;
+      margin-top: 10px;
+      margin-right: 10px;
+   }
+   .box_contactos {
+      font-size: 15px;
+   }
+}
+
+@media all and (max-width: 599px) {
+    header, section, footer {
+       width: 100%;
+   }
+    header {
+       height: auto;
+       position: relative;
+   }
+   #distintivo {
+       height: 150px;
+       width: 100%;
+       float: none;
+       text-align: center;
+   }
+   #botones_inicio {
+       height: auto;
+       width: 100%;
+       float: none;
+       padding-bottom: 5px;
+   }
+   #botones_inicio ul {
+      display: block;
+   }
+   #botones_inicio ul li a {
+      padding: 15px;
+   }
+   #section1 {
+      height: auto;
+   }
+   #b1_s1 {
+       height: 100px;
+       width: 100%;
+       float: none;
+       margin-top: 20px;
+       margin-right: 0;
+       margin-left: 0;
+    }
+   #b2_s1 {
+       height: auto;
+       width: 100%;
+       float: none;
+       margin-top: 5px;
+       margin-left: 0;
+       margin-right: 0;
+    }
+    h3 {
+      margin-top: 5px;
+    }
+   #b3_s1 {
+       height: auto;
+       width: 100%;
+       float: none;
+       margin-top: 5px;
+       border: none;
+       box-shadow: none;
+    }
+    h4 {
+      margin-top: 5px;
+    }
+    h5 {
+      margin-left: 90px;
+    }
+    .box_precios {
+      text-align: center;
+      margin-right: 50px;
+    }
+   #b4_s1 {
+      display: none;
+    }
+   #b5_s1 {
+       height: auto;
+       width: 100%;
+       float: none;
+       margin-top: 0;
+       margin-right: 0;
+   }
+   #section2 {
+       height: 1750px;
+    }
+   #b1_s2 {
+       height: 400px;
+       width: 100%;
+       float: none;
+       margin-top: 0;
+       margin-right: 0;
+    }
+   #b2_s2 {
+       height: 400px;
+       width: 100%;
+       float: none;
+       margin-left: 0;
+    }
+   #b3_s2 {
+       height: 350px;
+       width: 100%;
+       float: none;
+       margin-left: 0;
+    }
+   #b4_s2{
+       height: 400px;
+       width: 100%;
+       float: none;
+       margin-right: 0;
+   }
+   #section3 {
+       height: 2200px;
+    }
+    #b1_s3 {
+       height: 510px;
+       width: 100%;
+       float: none;
+       margin-top: 20px;
+       margin-left: 0;
+       margin-right: 0;
+    }
+   #b2_s3 {
+       height: 510px;
+       width: 100%;
+       float: none;
+       margin-top: 0;
+       margin-left: 0;
+       margin-right: 0;
+    }
+   #b3_s3 {
+       height: 510px;
+       width: 100%;
+       float: none;
+       margin-top: 0;
+       margin-left: 0;
+       padding-top: 40px;
+    }
+   #b4_s3 {
+       height: 200px;
+       width: 100%;
+       float: none;
+       margin-left: 0;
+    }
+   #b5_s3 {
+       height: 200px;
+       width: 100%;
+       float: none;
+       margin-right: 0;
+      padding-top: 60px;
+    }
+   #section4 {
+      height: 1000px;
+   }
+   #mod-1 {
+      height: auto;
+   }
+   #formulario {
+      padding: 0;
+   }
+   .btn-formulario {
+      float: none;
+      margin-right: 0;
+      margin-top: 0;
+   }
+   #mod-2 {
+      height: auto;
+   }
+   #formulario2 {
+      padding: 0;
+   }
+   #formulario2 h1 {
+      float: none;
+   }
+   .btn-formulario2 {
+      margin-top: 0;
+   }
+   #restaurante2 {
+      display: none;
+   }
+   #restaurante {
+      display: none;
+   }
+   footer {
+       height: auto;
+   }
+   #b1_f {
+      height: auto;
+      width: 100%;
+      float: none;
+      margin-left: 0;
+    }
+   #b2_f {
+      height: auto;
+      width: 100%;
+      float: none;
+      margin-right: 0;
+   }
+}
